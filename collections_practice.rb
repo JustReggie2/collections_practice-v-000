@@ -39,9 +39,5 @@ def sum_array(integers)
 end
 
 def add_s(words)
-  words.map! do |word|
-    if word != words[1]
-      word << "s"
-    end
-  end
+  words.map! {|x| x + "s"}
 end
