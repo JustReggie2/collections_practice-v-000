@@ -39,5 +39,5 @@ def sum_array(integers)
 end
 
 def add_s(words)
-  words.map! {|x| x + "s"}
+  words.map!.with_index {|x, i| x[0, 3..i] + "s"}
 end
