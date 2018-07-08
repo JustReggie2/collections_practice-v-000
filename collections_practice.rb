@@ -39,5 +39,5 @@ def sum_array(integers)
 end
 
 def add_s(words)
-  words.each_with_index.collect {|x, i| x[i] + "s"}
+  words.each_with_index.collect {|x, i| x + "s"}
 end
